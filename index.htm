@@ -18,11 +18,18 @@
   padding: 15px;
 }
 
+
+  
 html {
   font-family: "Lucida Sans", sans-serif;
 }
 body{background:orange;
 }
+
+@media only screen and (min-width: 600px) {
+  <p{font-size:24px;
+    background-color: orchid;}
+
 .header {
   background-color: green;
   text-align: center;
@@ -70,9 +77,12 @@ body{background:orange;
 [class*="col-"] {
   width: 100%;
 }
+@media only screen and (min-width: 500px) {
+  p{font-size:32px;}
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
+
+
+   /*For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
@@ -85,8 +95,10 @@ body{background:orange;
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  
 }
-@media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {
+  p{font-size:24px;}
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -100,6 +112,7 @@ body{background:orange;
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  
 }
 </style>
 </head>
@@ -125,6 +138,7 @@ body{background:orange;
     <h1>This is testing out the mobile desktop page</h1>
     <p> It is almost toward the end of class. I am having a better unterstanding on html and css. The problem is, they're so many ways of accomplishing the same task, that it makes it harder to figure out, what suit best.</p>
   </div>
+
 
   <div class="col-3 col-s-12">
     <div class="aside">
